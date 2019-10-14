@@ -1,0 +1,75 @@
+.eRegistrator-form {
+    width: 100%;
+    padding: 0 0 20px 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    background-color: #ffe2c6;
+}
+
+.eRegistrator-form__block {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.eRegistrator-form--640-1023 .eRegistrator-form__block {
+    width: 44%;
+    margin-left: 4%;
+}
+
+.eRegistrator-form--1024-1599 .eRegistrator-form__block {
+    width: 30%;
+    margin-left: 2%;
+}
+
+.eRegistrator-form--1600 .eRegistrator-form__block {
+    width: 480px;
+    margin-left: 32px;
+}
+
+.eRegistrator-form__label {
+    width: 100%;
+    font-size: 12px;
+    line-height: 1em;
+    display: inline-block;
+    color: #000;
+}
+
+.eRegistrator-form__input {
+    width: 100%;
+    padding: 8px 5px 8px 20px;
+    font-size: 16px;
+    line-height: 1em;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #858585;
+    background-color: #ffe2c6;
+    outline: none;
+}
+
+.eRegistrator-form__block--error .eRegistrator-form__input {
+    border-color: red;
+}
+
+.eRegistrator-form__error {
+    width: 100%;
+    font-size: 12px;
+    display: none;
+    color: red;
+}
+
+.eRegistrator-form__block--error  .eRegistrator-form__error {
+    display: inline-block;
+}

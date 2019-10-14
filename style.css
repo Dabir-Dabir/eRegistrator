@@ -1,0 +1,38 @@
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 0 50px 0;
+}
+
+.header {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.sidebar {
+    width: 35%;
+    float: left;
+}
+
+.content {
+    width: 60%;
+    margin-left: 5%;
+    float: left;
+}
+
+.footer {
+    float: left;
+    width: 90%;
+    margin-top: 60px;
+    text-align: right;
+}
+
+
+
+
+
